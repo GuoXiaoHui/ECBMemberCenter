@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/GuoXiaoHui/ECBMemberCenter.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/GuoXiaoHui/ECBMemberCenter.git", :tag => s.version }
   s.source_files  = "ECBMemberApp", "ECBMemberApp/**"
   # s.exclude_files = "Classes/Exclude"
 
@@ -34,9 +34,9 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "JSONKit", "~> 1.4"
+  # s.dependency "JSONKit", "~> 1.4"
 
 end

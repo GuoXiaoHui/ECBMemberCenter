@@ -24,7 +24,15 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   s.subspec 'View' do |ss|
-    ss.source_files = 'ECBMemberApp/View/*.{h,m}'
+    ss.source_files = 'ECBMemberApp/View/*'
+  end
+
+  s.subspec 'Controller' do |ss|
+    ss.source_files = 'ECBMemberApp/Controller/*'
+  end
+
+  s.subspec 'Model' do |ss|
+    ss.source_files = 'ECBMemberApp/Model/*'
   end
 
 

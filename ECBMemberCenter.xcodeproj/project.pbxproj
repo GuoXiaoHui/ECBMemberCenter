@@ -15,6 +15,8 @@
 		52ED10C61CF80E7200E2D109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED10C41CF80E7200E2D109 /* LaunchScreen.storyboard */; };
 		52ED10D11CF80E7200E2D109 /* ECBMemberCenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED10D01CF80E7200E2D109 /* ECBMemberCenterTests.m */; };
 		52ED10DC1CF80E7200E2D109 /* ECBMemberCenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED10DB1CF80E7200E2D109 /* ECBMemberCenterUITests.m */; };
+		52ED10F01CF80FFB00E2D109 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED10EE1CF80FFB00E2D109 /* AViewController.m */; };
+		52ED10F11CF80FFB00E2D109 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ED10EF1CF80FFB00E2D109 /* AViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		52ED10D71CF80E7200E2D109 /* ECBMemberCenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECBMemberCenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ED10DB1CF80E7200E2D109 /* ECBMemberCenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBMemberCenterUITests.m; sourceTree = "<group>"; };
 		52ED10DD1CF80E7200E2D109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED10ED1CF80FFB00E2D109 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		52ED10EE1CF80FFB00E2D109 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		52ED10EF1CF80FFB00E2D109 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +159,9 @@
 		52ED10EA1CF80EC000E2D109 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				52ED10ED1CF80FFB00E2D109 /* AViewController.h */,
+				52ED10EE1CF80FFB00E2D109 /* AViewController.m */,
+				52ED10EF1CF80FFB00E2D109 /* AViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -275,6 +283,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52ED10F11CF80FFB00E2D109 /* AViewController.xib in Resources */,
 				52ED10C61CF80E7200E2D109 /* LaunchScreen.storyboard in Resources */,
 				52ED10C31CF80E7200E2D109 /* Assets.xcassets in Resources */,
 				52ED10C11CF80E7200E2D109 /* Main.storyboard in Resources */,
@@ -302,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52ED10F01CF80FFB00E2D109 /* AViewController.m in Sources */,
 				52ED10BE1CF80E7200E2D109 /* ViewController.m in Sources */,
 				52ED10BB1CF80E7200E2D109 /* AppDelegate.m in Sources */,
 				52ED10B81CF80E7200E2D109 /* main.m in Sources */,

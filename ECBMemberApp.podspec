@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.tvos.deployment_target = "9.0"
 
   s.source       = { :git => "https://github.com/GuoXiaoHui/ECBMemberCenter.git", :tag => s.version }
-  s.source_files  = 'ECBMemberApp/**/*.{h,m,xib}'
+  s.source_files  = 'ECBMemberApp/Controller/*.{h,m,xib}', 'ECBMemberApp/Model/*.{h,m}', 'ECBMemberApp/View/*.{h,m}'
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

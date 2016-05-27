@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBMemberApp"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "ECBMemberApp is used for ECB proj's membercenter"
   s.description  = <<-DESC
                     ECBMemberApp is used for ECB proj's membercenter.

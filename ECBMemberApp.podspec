@@ -35,12 +35,12 @@ Pod::Spec.new do |s|
     ss.source_files = 'ECBMemberApp/Model/*'
   end
 
-  s.subspec 'xib' do |ss|
-    ss.resources = 'ECBMemberApp/**/*.{xib}'
-  end
+  #s.resources 'xib' do |ss|
+   # ss.resources = 'ECBMemberApp/**/*.{xib}'
+  #end
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = 'ECBMemberApp/**/*.{xib}'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

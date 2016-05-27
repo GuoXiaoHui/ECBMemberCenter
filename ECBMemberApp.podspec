@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBMemberApp"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ECBMemberApp is used for ECB proj's membercenter"
   s.description  = <<-DESC
                     ECBMemberApp is used for ECB proj's membercenter.
@@ -35,6 +35,9 @@ Pod::Spec.new do |s|
     ss.source_files = 'ECBMemberApp/Model/*'
   end
 
+  s.subspec 'Resources' do |ss|
+    ss.resources = 'ECBMemberApp/**/*.xib'
+  end
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"

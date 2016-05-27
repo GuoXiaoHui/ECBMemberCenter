@@ -81,6 +81,7 @@
 		52ED10AA1CF80E7200E2D109 = {
 			isa = PBXGroup;
 			children = (
+				52ED10E91CF80EC000E2D109 /* ECBMemberApp */,
 				52ED10B51CF80E7200E2D109 /* ECBMemberCenter */,
 				52ED10CF1CF80E7200E2D109 /* ECBMemberCenterTests */,
 				52ED10DA1CF80E7200E2D109 /* ECBMemberCenterUITests */,
@@ -138,6 +139,37 @@
 				52ED10DD1CF80E7200E2D109 /* Info.plist */,
 			);
 			path = ECBMemberCenterUITests;
+			sourceTree = "<group>";
+		};
+		52ED10E91CF80EC000E2D109 /* ECBMemberApp */ = {
+			isa = PBXGroup;
+			children = (
+				52ED10EA1CF80EC000E2D109 /* Controller */,
+				52ED10EB1CF80EC000E2D109 /* Model */,
+				52ED10EC1CF80EC000E2D109 /* View */,
+			);
+			path = ECBMemberApp;
+			sourceTree = "<group>";
+		};
+		52ED10EA1CF80EC000E2D109 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52ED10EB1CF80EC000E2D109 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52ED10EC1CF80EC000E2D109 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

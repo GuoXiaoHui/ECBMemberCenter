@@ -28,15 +28,15 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Controller' do |ss|
-    ss.source_files = 'ECBMemberApp/Controller/*'
+    ss.source_files = 'ECBMemberApp/Controller/*.{h,m}'
   end
 
   s.subspec 'Model' do |ss|
     ss.source_files = 'ECBMemberApp/Model/*'
   end
 
-  s.subspec 'Resources' do |ss|
-    ss.resources = 'ECBMemberApp/**/*.xib'
+  s.subspec 'xib' do |ss|
+    ss.resources = 'ECBMemberApp/**/*.{xib}'
   end
 
   # s.resource  = "icon.png"

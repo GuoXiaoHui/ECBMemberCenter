@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'ECBMemberApp/Model/*'
   end
 
-  #s.resources 'xib' do |ss|
+  #s.resource 'xib' do |ss|
    # ss.resources = 'ECBMemberApp/**/*.{xib}'
   #end
 

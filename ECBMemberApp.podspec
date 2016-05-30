@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/GuoXiaoHui/ECBMemberCenter"
   s.license      = "MIT"
   s.author       = { "kaxi" => "gxhxl666@sina.com" }
-  s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  #s.platform     = :ios
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"

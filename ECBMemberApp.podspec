@@ -29,6 +29,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Controller' do |ss|
     ss.source_files = 'ECBMemberApp/Controller/*.{h,m}'
+    ss.resources = 'ECBMemberApp/**/*.{xib}'
   end
 
   s.subspec 'Model' do |ss|
@@ -40,7 +41,7 @@ Pod::Spec.new do |s|
   #end
 
   # s.resource  = "icon.png"
-  s.resources = 'ECBMemberApp/**/*.{xib}'
+  # s.resources = 'ECBMemberApp/**/*.{xib}'
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

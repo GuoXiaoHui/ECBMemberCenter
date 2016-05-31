@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                     ECBMemberApp is used for ECB proj's membercenter.
                    DESC
-  s.homepage     = "https://github.com/GuoXiaoHui/ECBMemberCenter"
+  s.homepage     = "https://github.com/ios-xiaohui01/ECBMemberCenter"
   s.license      = "MIT"
   s.author       = { "kaxi" => "gxhxl666@sina.com" }
   #s.platform     = :ios
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/GuoXiaoHui/ECBMemberCenter.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/ios-xiaohui01/ECBMemberCenter.git", :tag => s.version }
   # s.source_files  = 'ECBMemberApp/*'
   # s.exclude_files = "Classes/Exclude"
 
